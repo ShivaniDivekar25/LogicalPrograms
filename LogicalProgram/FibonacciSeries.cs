@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace LogicalProgram
 {
+    //Created class Fibonacci
     public class FibonacciSeries
     {
+        //Created method Fibonacci 
         public void Fibonacci(int count)
         {
             int p1 = 0, p2 = 1, p3;
