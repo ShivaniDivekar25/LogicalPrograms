@@ -7,7 +7,7 @@
             Console.WriteLine("Welcome to logical programs");
             //Taking user input
             Console.WriteLine("Please enter option");
-            Console.WriteLine("1:Fibonacci Series\n2:Prime Number\n3:Reverse Number\n4:Perfect Number\n5:Day of week\n6:Temperature Converter\n7:Monthly Payment");
+            Console.WriteLine("1:Fibonacci Series\n2:Prime Number\n3:Reverse Number\n4:Perfect Number\n5:Day of week\n6:Temperature Converter\n7:Monthly Payment\n8:Square Root by Newtons method");
             int option = Convert.ToInt32(Console.ReadLine());
             //Switch case to call different method 
             switch (option)
@@ -40,6 +40,9 @@
                     break;
                 case 7:
                     MonthlyPayments.MonthlyPayment();
+                    break;
+                case 8:
+                    SqaureRoot.SquareRootNewtons();
                     break;
                 default:
                     Console.WriteLine("Please enter right option");
